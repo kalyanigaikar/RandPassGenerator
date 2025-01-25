@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Generator {
+    height: 70%;
+    width: 60%;
+    /* background-color: violet; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Generator h1 {
+    font-weight: 500;
+    font-size: 2.2vw;
+}
+
+.inner-generator {
+    height: 30%;
+    width: 90%;
+    /* background-color: lightblue; */
+    margin: 1vw 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3vw;
+}
+
+.inner-generator div {
+    position: relative;
+    width: 30vw;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vw 0;
+}
+
+.inner-generator div input {
+    width: 100%;
+    padding: .8vw 2vw;
+    font-size: 1.2vw;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.inner-generator div i {
+    position: absolute;
+    right: 5%;
+    font-size: 1.5vw;
+}
+
+.inner-generator div i:hover {
+    cursor: pointer;
+}
+
+.inner-generator button {
+    /* width: 20vw; */
+    padding: .8vw 2vw; 
+    font-size: 1.1vw;
+    background-color: rgb(31, 118, 31);
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin-bottom: 2vw;
+}
+
+.inner-generator button:hover {
+    cursor: pointer;
+    background-color: rgb(41, 134, 41);
+}
